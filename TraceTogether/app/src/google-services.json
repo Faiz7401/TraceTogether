@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "922756408830",
+    "project_id": "tracetogether-78f84",
+    "storage_bucket": "tracetogether-78f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922756408830:android:8f673bbe37e7362a49ccaf",
+        "android_client_info": {
+          "package_name": "com.example.tracetogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922756408830-67inaia42fnvkhgk5ufab4k8emh036pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADvnOtpXpLPAg0Aa4JwB_neEyhjWDxd0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922756408830-67inaia42fnvkhgk5ufab4k8emh036pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tracetogether">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TraceTogether"
+        tools:targetApi="31">
+        <activity
+            android:name=".Application.CheckIn.CheckIn_SelectDependent"
+            android:parentActivityName=".Application.CheckIn.CheckIn_User"
+            android:exported="false"/>
+        <activity
+            android:name=".Application.CheckIn.Qr_Scanner"
+            android:parentActivityName=".Application.CheckIn.CheckIn_SelectDependent"
+            android:exported="false"/>
+        <activity
+            android:name=".Application.CheckIn.CheckIn_Info"
+            android:parentActivityName=".Application.CheckIn.Qr_Scanner"
+            android:exported="false"/>
+        <activity
+            android:name=".Application.CheckIn.CheckIn_History"
+            android:parentActivityName=".Application.CheckIn.CheckIn_User"
+            android:exported="false"/>
+        <activity
+            android:name=".Application.CheckIn.CheckIn_User"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

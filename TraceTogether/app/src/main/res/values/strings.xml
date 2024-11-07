@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TraceTogether</string>
+    <string name="check_in">Check-In</string>
+    <string name="todo">TODO</string>
+    <string name="history">History</string>
+    <string name="vaccination_status">Vaccination Status</string>
+    <string name="full_name">Full Name</string>
+    <string name="textview">TextView</string>
+    <string name="backgroundpage">backgroundpage</string>
+</resources>
